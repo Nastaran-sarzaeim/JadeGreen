@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SignUp.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>SignUp</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="login-form">
+            <form>
+                <h1>ثبت نام</h1>
+                <div class="form-group">
+                    <label for="username" class="username">
+                        <span class="material-symbols-outlined key">
+                            person
+                        </span>
+                        نام کاربری
+                    </label>
+                    <input class="text-input" id="username" type="text" placeholder="نام کاربری" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="password" class="password">
+                        <span class="material-symbols-outlined key">
+                            vpn_key
+                        </span>
+                        رمز عبور
+                    </label>
+                    <input class="text-input key-box" id="password" type="password" placeholder=" رمز عبور "
+                        name="password">
+                    <p class="error">رمز عبور باید بیشتر از 6 کاراکتر باشد</p>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="password">
+                        <span class="material-symbols-outlined key">
+                            vpn_key
+                        </span>
+                        تکرار رمز عبور
+                    </label>
+                    <input class="text-input key-box" id="password" type="password" placeholder=" رمز عبور "
+                        name="password">
+                    <p class="error">رمز عبور باید بیشتر از 6 کاراکتر باشد</p>
+                </div>
+                <div class="form-group btn-container">
+                    <button class="btn" type="submit">
+                        ورود
+                    </button>
+                </div>
+                <div class="div-forget-password">
+                    <a href="#" class="forget-password">رمز عبور خود را فراموش کردید؟</a>
+                </div>
+                <hr class="hr">
+                <div class="div-sign">
+                    <button class="sign-btn">
+                        <a href="../login/login.html" class="sign">
+                            حساب کاربری دارید ؟ کلیک کنید
+                        </a>
+
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
